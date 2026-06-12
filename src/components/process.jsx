@@ -1,3 +1,6 @@
+import handmadeimg from '../assets/img2';
+import homeinteriorimg from "../assets/img1"
+
 export default function Process() {
   return (
     <>
@@ -50,7 +53,7 @@ export default function Process() {
       <div className="overflow-hidden rounded-sm">
 
         <img
-          src="src\assets\img2.jpg"
+          src={handmadeimg}
           alt="Athangudi Tile Making"
           className="w-[455] h-[628px] object-cover transition duration-700 hover:scale-105"
         />
@@ -60,7 +63,7 @@ export default function Process() {
       <div className="overflow-hidden rounded-sm">
 
         <img
-          src="src\assets\img1.jpg"
+          src={homeinteriorimg}
           alt="Athangudi Interior"
           className="w-[681px] h-[769px] object-cover transition duration-700 hover:scale-105"
         />

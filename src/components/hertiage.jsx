@@ -1,3 +1,6 @@
+import tileimg1 from "../assets/tile-final"
+import tileimg2 from "../assets/footerimg"
+
 export default function Heritage() {
     return (
         <section className="bg-[#F5F0EB] py-24 lg:py-40">
@@ -9,7 +12,7 @@ export default function Heritage() {
                     {/* Left Image */}
                     <div className="lg:translate-y-25">
                         <img
-                            src="src\assets\footerimg.jpg"
+                            src={tileimg2}
                             alt="Athangudi Craftsmanship"
                             className="w-full h-[650px] object-cover"
                         />
@@ -20,7 +23,7 @@ export default function Heritage() {
 
                         {/* Small Image */}
                         <img
-                            src="/src/assets/tile-final.png"
+                            src={tileimg1}
                             alt="Athangudi Tiles"
                             className=" w-[460px]  h-[350px] object-cover mb-20"
                         />
