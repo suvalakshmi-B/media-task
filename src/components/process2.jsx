@@ -1,4 +1,4 @@
-import tileInterior from "../assets/Tile3.jpg";
+import tileInterior from "../assets/tile3.jpg";
 export default function GiftSection() {
     return (
         <section className="bg-[#f5f1ef] py-16 lg:py-24">
