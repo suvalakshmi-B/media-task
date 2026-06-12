@@ -1,5 +1,5 @@
-import tileimg1 from "../assets/tile-final"
-import tileimg2 from "../assets/footerimg"
+import tileimg1 from "../assets/tile-final.png"
+import tileimg2 from "../assets/footerimg.jpg"
 
 export default function Heritage() {
     return (

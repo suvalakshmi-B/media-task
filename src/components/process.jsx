@@ -1,5 +1,5 @@
-import handmadeimg from '../assets/img2';
-import homeinteriorimg from "../assets/img1"
+import handmadeimg from '../assets/img2.jpg';
+import homeinteriorimg from "../assets/img1.jpg"
 
 export default function Process() {
   return (
