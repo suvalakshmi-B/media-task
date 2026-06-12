@@ -1,11 +1,11 @@
-import Hero from "../components/Hero";
-import Heritage from "../components/Hertiage";
-import StorySection from "../components/Collections";
-import Process from "../components/Process";
-import GiftSection from "../components/Process2";
-import SpaceGallery from "../components/Slider";
-import Footer from "../components/Footer";
-import ContactSection from "../components/Cta";
+import Hero from "../components/hero";
+import Heritage from "../components/hertiage";
+import StorySection from "../components/collections";
+import Process from "../components/process";
+import GiftSection from "../components/process2";
+import SpaceGallery from "../components/slider";
+import Footer from "../components/footer";
+import ContactSection from "../components/cta";
 
 export default function Home() {
   return (
